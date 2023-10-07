@@ -1,0 +1,147 @@
+header div{
+    color: white;
+    font-weight: bolder;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 1px;
+    
+}
+.logo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: none;
+    background:black url("../imagens/logo.png")no-repeat center scroll;
+    background-size: contain;
+    border: 1px solid white;
+    
+    
+}
+
+.clicaveis{
+    cursor: pointer;
+}
+.menu{
+    border: none;
+   
+}
+.theme{
+    border: 1px solid white;
+    background-color: red;
+}
+
+.menuF{
+    position: absolute;
+    display: none;
+    min-height: 90vh;
+    max-height: 100vh;
+    width: 100%;
+    margin-top: 60px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 128, 0, 0.705);
+
+}
+section.itens1{
+    width: 100%;
+
+}
+nav.menuF > section.itens1 >menu{
+    text-align: center;
+    width: 100%;
+    display: block;
+    background-color: white;
+
+}
+nav.menuF  li{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    background-color: rgb(89, 0, 255);
+    box-shadow: 1px 1px 3px black;
+}
+.menuF a{
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.menuPc{
+    border-top: 2px solid white;
+    padding: 9px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+
+}
+.menuPc > section.itens1 > menu{
+    margin-left: 20px;
+}
+.menuPc > section.itens1 > menu > ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menuPc > section.itens1 > menu > ul > li{
+   
+    list-style: none;
+    height: 37px;
+    width: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #5900ffd7;
+    border: 2px solid #ffffffc7;
+    box-shadow: .9px 1px 2px black;
+}
+.menuPc > section.itens1 > menu > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+main > section {    
+    bottom: 311px;
+    margin-left: 100px;
+    margin-right: 10px;
+    line-height: 28px;
+    background-color: #ffffffbe;
+    padding: 10px;
+    min-height: 120px;
+    max-width: 400px;
+    max-height:140px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+    box-shadow: 1px 1px 3px black;
+    border: 1px solid #0000005d;
+    border-radius: 3px 10px 10px 10px;
+    transition: 1s;
+}
+main section h1, p{
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 2px 7px 7px 7px;
+    background-color: #0000ff9a;
+}
+main section p{
+    padding: 9px;
+}
