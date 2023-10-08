@@ -1,6 +1,8 @@
 // VARIAVEIS GLOBAIS
 const corpo = document.getElementsByTagName("main")[0];
 
+const body = document.getElementsByTagName("body")[0]
+
 const header = document.getElementsByTagName("header")[0];
 
 const btn_menu  = [...document.getElementsByClassName("menuF")];
@@ -86,6 +88,7 @@ function thema(){
     corpo.style.backgroundColor="#aaaaaa"
     header.style.background="darkblue"
     theme.innerHTML="Dark"
+    body.style.background="#aaaaaa"
    
    
     theme.style.background="black";
@@ -118,6 +121,7 @@ theme.addEventListener("click",()=>{
             hel2.style.color=""
             hel3.style.background=""
             hel3.style.color=""
+            body.style.background=""
             theme.innerHTML="Light"
 
         }else{
