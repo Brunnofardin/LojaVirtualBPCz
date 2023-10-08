@@ -1,0 +1,52 @@
+form > h2{
+    background-color: #0000ff86;
+    border-radius: 3px 5px 5px 5px;
+}
+.coleta-dados{
+    display: flex;
+}
+.coleta-dados > label{
+    background-color: red;
+    width: 40%;
+    height: 100%;
+    display: block;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px 0px 0px 4px;
+   
+}
+.coleta-dados > input{
+    display: block;
+    border: 0px;
+    height: 90%;
+    width: 60%;
+    padding: 9.7px;
+   
+
+}
+.coleta-dados > input[type=submit]{
+    cursor: pointer;
+    margin: auto;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+.coleta-dados > input:active{
+    border: 0px;
+}
+@media screen and (max-width:400px){
+    main > section{
+      margin-top: 230px;
+    }
+    .coleta-dados > label{
+        width: 60%;
+    }
+    .coleta-dados > input{
+        width: 40%;
+    }
+    .coleta-dados > input[type=submit]{
+        width: 100%;
+    }
+}
