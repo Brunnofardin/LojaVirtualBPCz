@@ -52,7 +52,7 @@ form > h2{
     
 
 }
-.coleta-dados > input[type=submit]{
+.coleta-dados > input[type=button]{
     cursor: pointer;
     margin: auto;
     font-weight: bolder;
@@ -64,5 +64,6 @@ form > h2{
 .coleta-dados > input:active{
     border: 0px;
 }
+
 
 
