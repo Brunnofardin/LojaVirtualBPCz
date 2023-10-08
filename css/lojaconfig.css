@@ -1,3 +1,30 @@
+main > section{
+    bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 28px;
+    background-color: #ffffffbe;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+    box-shadow: 1px 1px 3px black;
+    border: 1px solid #0000005d;
+    border-radius: 3px 10px 10px 10px;
+    height: 100%;
+    width: 90%;
+    transition: 1s;
+}
+.coleta-dados > label{
+    width: 60%;
+}
+.coleta-dados > input{
+    width: 40%;
+}
+.coleta-dados > input[type=submit]{
+    width: 100%;
+}
+
 form > h2{
     padding: 10px;
     background-color: #0000ff86;
@@ -14,7 +41,7 @@ form > h2{
     padding: 3px;
     cursor: pointer;
     border-radius: 3px 0px 0px 4px;
-   
+    
 }
 .coleta-dados > input{
     display: block;
@@ -22,7 +49,7 @@ form > h2{
     height: 90%;
     width: 60%;
     padding: 9.7px;
-   
+    
 
 }
 .coleta-dados > input[type=submit]{
@@ -37,17 +64,5 @@ form > h2{
 .coleta-dados > input:active{
     border: 0px;
 }
-@media screen and (max-width:400px){
-    main > section{
-      margin-top: 230px;
-    }
-    .coleta-dados > label{
-        width: 60%;
-    }
-    .coleta-dados > input{
-        width: 40%;
-    }
-    .coleta-dados > input[type=submit]{
-        width: 100%;
-    }
-}
+
+
