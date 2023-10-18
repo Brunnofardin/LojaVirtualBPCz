@@ -14,7 +14,7 @@ header div{
     height: 30px;
     width: 100px;
     border: none;
-    background:black url("/imagens/logo.png")no-repeat center scroll;
+    background:black url("../imagens/logo.png") no-repeat center scroll;
     background-size: contain;
     border: 1px solid white;
     
