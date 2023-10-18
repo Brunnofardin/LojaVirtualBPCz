@@ -8,16 +8,17 @@
     main > section{
         display: flex;
         max-width: 700px;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: row;
         margin-top:7px ;
-        min-height: 87vh;
+        min-height: 70vh;
         
     }
     main > section > form{
         margin-top: -10px;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         min-width: 100%;
        
         
@@ -38,6 +39,7 @@
     main > section > form > p{
         display: flex;
         align-items: center;
+        justify-content: center;
         max-height: 30px;
         min-width: 90%;
        
@@ -57,13 +59,15 @@
     .coleta-dados > div{
         display: flex;
         width: 50%;
-        height: 100%;
         margin: auto;
         cursor: pointer;
         align-items: center;
         justify-content: center;
         background-color: blue;
         border: 2px solid white;
+        padding: 0px;
+        max-height: 70%;
+        margin-bottom: 20px;
         
     }
     .coleta-dados > div > a{
@@ -81,6 +85,7 @@
    
 }
 @media screen and (orientation:landscape) and (min-width:900px) and (max-height:500px){
+
     main > section{
         display: flex;
         justify-content: center;
@@ -90,7 +95,8 @@
     main > section > form{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        
+        justify-content: space-around;
        
         
     }
