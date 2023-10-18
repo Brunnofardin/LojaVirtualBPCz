@@ -93,6 +93,24 @@ function thema(){
    
     theme.style.background="black";
 }
+function themaNoite(){
+    menuPc.map((el,i)=>{
+        if(i == 0){
+            el.style.background="#030369"
+        }
+    })
+    menuF.map((el,i)=>{
+        if(i == 0){
+            el.style.background="#0000007a"
+        }
+    })
+    theme.style.color="white"
+    corpo.style.backgroundColor="#aaaaaa"
+    header.style.background="darkblue"
+    theme.innerHTML="Dark"
+    body.style.background="#aaaaaa"
+    theme.style.background="black";
+}
 
 // MUDANDO THEMA AO CLICAR
 
