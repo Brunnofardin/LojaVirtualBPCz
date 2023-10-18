@@ -7,53 +7,31 @@ const mostrar = [...document.getElementsByClassName("amostra-dados")]
 const clicaveis = [...document.getElementsByClassName("clicaveis theme")]
 
 
+
 theme.addEventListener("click",()=>{
     
-    if(theme.style.background == "black"){
-        clicaveis.map((el,i,a)=>{
-            el.addEventListener("click",()=>{
-                dados.map((el,i,a)=>{
-                    el.firstElementChild.style.background="";
-                    el.style.background="";
-                    el.parentNode.firstElementChild.style.background="";
+   
+        // clicaveis.map((el,i,a)=>{
+        //     el.addEventListener("click",()=>{
+        //         dados.map((el,i,a)=>{
+        //             el.firstElementChild.style.background="#5f4949ab"
+        //             el.style.background="#02029786"
+        //             el.parentNode.firstElementChild.style.background="#02029786"
                     
-                    mostrar.map((el,i,a)=>{
-                        el.style.background="";
+        //             mostrar.map((el,i,a)=>{
+        //                 el.style.background="#02029786"
                 
-                    })
-                
-                    
-                })
-        
-        
-            })
-        })
-        
-        
-    }else{
-        clicaveis.map((el,i,a)=>{
-            el.addEventListener("click",()=>{
-                dados.map((el,i,a)=>{
-                    el.firstElementChild.style.background="#5f4949ab"
-                    el.style.background="#02029786"
-                    el.parentNode.firstElementChild.style.background="#02029786"
-                    
-                    mostrar.map((el,i,a)=>{
-                        el.style.background="#02029786"
-                
-                    })
+        //             })
                 
                     
-                })
+        //         })
         
         
-            })
-        })
+        //     })
+        // })
         
-       
-
-    }
-
+        
+   
 
 
 
@@ -77,7 +55,7 @@ mostrar.map((el1,i,a)=>{
                             
                             if(i == 0){
                                 
-                                    e.textContent=`Valor a se pago: $${qtd.value}`
+                                    e.textContent=`Valor a ser pago: $${qtd.value}`
 
                                     el1.textContent=`Total de moedas: ${qtd.value}.000`
         
@@ -143,23 +121,22 @@ dados.map((el,i,a)=>{
                 
 
                 const a = document.createElement("a");
+                const div = document.createElement("div");
 
                 // OCUTANDO BOTAO DE PROSEGUIR
 
                 btn_prosseguir.style.display="none";
 
                 // CRIANDO BOTAO DE CONFIRMAR
-                a.style.width="65%";
-                a.style.padding="5px";
                 a.style.color="white";
                 a.style.margin="auto";
                 a.innerText="Confirmar";
                 a.style.display="block";
-                a.style.background="blue";
                 a.style.textAlign="center";
                 a.style.fontWeight="bolder";
                 a.style.textDecoration="none";
-                a.style.border="2px solid white";
+                
+                div.setAttribute("class","btn")
                 a.setAttribute("target","_blank");
                 
                 // COLETANDO DADOS
@@ -171,7 +148,9 @@ dados.map((el,i,a)=>{
                 
                 a.setAttribute("href",link);
 
-                btn_prosseguir.parentNode.appendChild(a);
+                div.appendChild(a);
+
+                btn_prosseguir.parentNode.appendChild(div);
                 
                 
             }
