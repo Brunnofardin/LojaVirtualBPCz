@@ -24,8 +24,8 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 90vh;
-    max-height: 100vh;
+    min-height: 80vh;
+    max-height: 90vh;
     background: beige url("../imagens/fundo.svg") center no-repeat;
     background-size:contain;
 
