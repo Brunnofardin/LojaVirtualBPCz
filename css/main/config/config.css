@@ -14,37 +14,22 @@ header div{
     height: 30px;
     width: 100px;
     border: none;
-    background:black url("../imagens/logo.png") no-repeat center scroll;
+    background:black url("/imagens/logo.png") no-repeat center scroll;
     background-size: contain;
     border: 1px solid white;
     
     
 }
-
-.clicaveis{
-    cursor: pointer;
-}
 .menu{
     border: none;
    
 }
+.clicaveis{
+    cursor: pointer;
+}
 .theme{
     border: 1px solid white;
     background-color: #ff0000ce;
-}
-
-.menuF{
-    position: absolute;
-    display: none;
-    min-height: 90vh;
-    max-height: 90vh;
-    width: 100%;
-    margin-top: 60px;
-    flex-direction:column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 128, 0, 0.705);
-
 }
 section.itens1{
     width: 100%;
@@ -63,7 +48,7 @@ nav.menuF  li{
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid white;
-    background-color: rgb(89, 0, 255);
+    background-color: #5900ff;
     box-shadow: 1px 1px 3px black;
 }
 .menuF a{
@@ -75,15 +60,6 @@ nav.menuF  li{
     text-decoration: none;
     font-size: 1.2em;
 }
-.menuPc{
-    border-top: 2px solid white;
-    padding: 9px;
-    display: none;
-    align-items: center;
-    justify-content: space-around;
-    background-color: green;
-
-}
 .menuPc > section.itens1 > menu{
     margin-left: 20px;
 }
@@ -91,7 +67,7 @@ nav.menuF  li{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .menuPc > section.itens1 > menu > ul > li{
@@ -142,7 +118,37 @@ main section h1, p{
     padding: 4px;
     border-radius: 2px 7px 7px 7px;
     background-color: #0000ff9a;
+
 }
 main section p{
     padding: 9px;
+
+}
+
+footer > section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    border-radius: 2px;
+    border: 2px solid white;
+    background-color: rgba(170, 4, 4, 0.842);
+    
+    
+}
+footer ul li a{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
 }

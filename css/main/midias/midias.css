@@ -1,7 +1,6 @@
 @media screen and (min-width:480px){
 
     div.logo{
-        display: flex;
         border: 1px solid white;
     }
     main section{
